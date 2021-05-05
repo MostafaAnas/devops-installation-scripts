@@ -6,3 +6,6 @@ sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > \
     /etc/apt/sources.list.d/jenkins.list'
 sudo apt-get update
 sudo apt-get install jenkins -y
+
+# run with no password
+# echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
