@@ -8,4 +8,4 @@ sudo apt-get update
 sudo apt-get install jenkins -y
 
 # run with no password
-# echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+# sudo usermod -a -G docker jenkins
